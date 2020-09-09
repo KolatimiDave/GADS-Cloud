@@ -26,7 +26,7 @@ GADS-2020-practice- project-submission
 
 <details>
   <!-- The complete lab title goes here 👇🏾-->
-  <summary>Lab 4  : Console and Cloud Shellt</summary>
+  <summary>Lab 4  : Console and Cloud Shell</summary>
   <!-- Provide path to the screenshot here. Example 👇🏾-->
   <img src="Images/Cloud-Console-and-Cloud-shell.png">
 </details>
@@ -70,7 +70,7 @@ GADS-2020-practice- project-submission
   <!-- The complete lab title goes here 👇🏾-->
   <summary>Lab 10: Getting Started with Compute Engine</summary>
   <!-- Provide path to the screenshot here. Example 👇🏾-->
-  <img src="Images/Cloud-Getting-Stateted-w-C.E.png">
+  <img src="Images/Cloud-Getting-Started-w-C.E.png">
 </details>
 
 <details>
@@ -105,7 +105,7 @@ GADS-2020-practice- project-submission
   <!-- The complete lab title goes here 👇🏾-->
   <summary>Lab 15: Implement Private Google Access and Cloud NAT</summary>
   <!-- Provide path to the screenshot here. Example 👇🏾-->
-  <img src="Cloud-NAT.png">
+  <img src="Images/Cloud-NAT.png">
 </details>
 
 
