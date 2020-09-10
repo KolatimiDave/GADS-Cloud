@@ -71,7 +71,7 @@ Sign in to the Google Cloud Platform
 
    * curl http://localhost/
 
-          Result: The response will be the HTML source of the web server's home page, including your line of custom text
+         Result: The response will be the HTML source of the web server's home page, including your line of custom text
 
 9. To exit the command prompt on my-vm-1, execute this command
 
