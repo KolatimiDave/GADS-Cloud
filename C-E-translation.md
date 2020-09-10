@@ -29,7 +29,7 @@ Sign in to the Google Cloud Platform
 
 <b>1</b>. Display a list of all the zones in a region
 
-          * gcloud compute zones list | grep us-central1
+   * gcloud compute zones list | grep us-central1
 
 <b>2</b>. Set the Zone to us-central1-b
 
