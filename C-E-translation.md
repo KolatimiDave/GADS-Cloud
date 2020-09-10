@@ -17,7 +17,7 @@ In this lab, you will learn how to perform the following tasks:
 
 1. Create a virtual machine using the GCP Console
 
-* gcloud compute instances create my-vm-1 --machine-type 'n1-standard-1' --image-project 'debian-cloud' --image 'debian-9-stretch-v20190213' --subnet 'default' --tags http 
+   * gcloud compute instances create my-vm-1 --machine-type 'n1-standard-1' --image-project 'debian-cloud' --image 'debian-9-stretch-v20190213' --subnet 'default' --tags http 
 
 ## Tasks3: Create a virtual machine using the gcloud command line
 
@@ -25,11 +25,11 @@ In this lab, you will learn how to perform the following tasks:
 
 1. Display a list of all the zones in a region
 
-* gcloud compute zones list | grep us-central1
+   * gcloud compute zones list | grep us-central1
 
 2. Set the Zone to us-central1-b
 
-* gcloud config set compute/zones us-central1-b
+   * gcloud config set compute/zones us-central1-b
 
 3. Create the second instance
 
