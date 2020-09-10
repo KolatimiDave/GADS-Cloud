@@ -71,7 +71,7 @@ Sign in to the Google Cloud Platform
 
    * curl http://localhost/
 
-  Result: The response will be the HTML source of the web server's home page, including your line of custom text
+          Result: The response will be the HTML source of the web server's home page, including your line of custom text
 
 9. To exit the command prompt on my-vm-1, execute this command
 
@@ -81,7 +81,7 @@ Sign in to the Google Cloud Platform
 
    * curl http://my-vm-1/
 
-  Result: The response will again be the HTML source of the web server's home page, including your line of custom text
+          Result: The response will again be the HTML source of the web server's home page, including your line of custom text
 
 11. Copy the External IP address for my-vm-1 and paste it into the address bar of a new browser tab. You will see your web server's home page, including your custom text
 
