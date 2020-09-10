@@ -39,7 +39,7 @@ Sign in to the Google Cloud Platform
 
    * gcloud compute instances create my-vm-2 --machine-type 'n1-standard-1' --image-project 'debian-cloud' --image 'debian-9-stretch-v20190213' --subnet 'default'
 
-## Tasks4: gcloud compute zones list | grep us-central1
+## Tasks4: Connect between VM instances
 
 ### Steps:
 
