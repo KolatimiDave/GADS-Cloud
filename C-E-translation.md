@@ -25,7 +25,7 @@ Sign in to the Google Cloud Platform
 
 ### Steps:
 
-1. Display a list of all the zones in a region
+<b>1</b>. Display a list of all the zones in a region
 
    * gcloud compute zones list | grep us-central1
 
