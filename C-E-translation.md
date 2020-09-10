@@ -21,6 +21,8 @@ Sign in to the Google Cloud Platform
 
    * gcloud compute instances create my-vm-1 --machine-type 'n1-standard-1' --image-project 'debian-cloud' --image 'debian-9-stretch-v20190213' --subnet 'default' --tags http 
 
+   * gcloud compute firewall-rules create allow-http --action=ALLOW --direction=INGRESS --rules=http:80 --target-tags=http
+
 ## Tasks3: Create a virtual machine using the gcloud command line
 
 ### Steps:
