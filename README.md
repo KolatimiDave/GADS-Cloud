@@ -1,7 +1,7 @@
 # KolatimiDave-GADS-Cloud
 GADS-2020-practice- project-submission
 
-## QwikLabs Completed
+## QwikLabs Completed Screenshots
 
 <details>
   <!-- The complete lab title goes here 👇🏾-->
