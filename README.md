@@ -113,6 +113,8 @@ GADS-2020-practice- project-submission
 
 ## LAB Translations
 
-1. [Getting Started with Compute Engine](https://github.com/KolatimiDave/GADS-Cloud/blob/master/C-E-translation.md) Translation.
+<b>1</b>. [Getting Started with Compute Engine](https://github.com/KolatimiDave/GADS-Cloud/blob/master/C-E-translation.md) Translation.
 
-2. 
+<b>2</b>. [Getting Started with GKE](https://github.com/KolatimiDave/GADS-Cloud/blob/master/G.K.E-Translation.md) Translation.
+
+<b>3</b>. [Console and Cloud Shell](https://github.com/KolatimiDave/GADS-Cloud/blob/master/console-&-shell-Translation.md) Translation.
