@@ -111,14 +111,8 @@ GADS-2020-practice- project-submission
 
 
 
-## Translation code
+## LAB Translations
 
-1. 
+1. [Getting Started with Compute Engine](https://github.com/KolatimiDave/GADS-Cloud/blob/master/C-E-translation.md) Translation.
 
-<details>
-  <!-- The complete lab title goes here 👇🏾-->
-  <summary>Translation 1: Getting Started with Compute Engine</summary>
-  <!-- Provide path to the screenshot here. Example 👇🏾-->
-  <img src="https://github.com/KolatimiDave/GADS-Cloud/blob/master/C-E-translation.md">
-</details>
-
+2. 
