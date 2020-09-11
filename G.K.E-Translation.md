@@ -30,11 +30,11 @@ Sign in to the Google Cloud Platform
 
 1. For convenience, place the zone that Qwiklabs assigned you to into an environment variable called MY_ZONE. At the Cloud Shell prompt, type this partial command
 
-       * export MY_ZONE=
+   * export MY_ZONE=
 
-     	 followed by the zone you'll be using. your completed command will look similar to this
+     followed by the zone you'll be using. your completed command will look similar to this
 
-    	 * export MY_ZONE=us-central1-a
+     * export MY_ZONE=us-central1-a
 
 
 2. Start a Kubernetes cluster managed by Kubernetes Engine. Name the cluster webfrontend and configure it to run 2 nodes
