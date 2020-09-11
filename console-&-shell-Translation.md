@@ -63,53 +63,53 @@ Sign in to the Google Cloud Platform
 #### Append the environment variable to a file
 
 
-	1. Create a subdirectory for materials used in this class
+1. Create a subdirectory for materials used in this class
 
-	   * mkdir infraclass
+   * mkdir infraclass
 
-	2. Create a file called config in the infraclass directory:
+2. Create a file called config in the infraclass directory:
 
-	   * touch infraclass/config
+   * touch infraclass/config
 
-	3. Append the value of your Region environment variable to the config file:
+3. Append the value of your Region environment variable to the config file:
 
-	   * echo INFRACLASS_REGION=$INFRACLASS_REGION >> ~/infraclass/config
+   * echo INFRACLASS_REGION=$INFRACLASS_REGION >> ~/infraclass/config
 
-	4. Create a second environment variable for your Project ID, replacing [YOUR_PROJECT_ID] with your Project ID. You can find the project ID on the Cloud Console Home page.
+4. Create a second environment variable for your Project ID, replacing [YOUR_PROJECT_ID] with your Project ID. You can find the project ID on the Cloud Console Home page.
 
-	   * export INFRACLASS_PROJECT_ID=[YOUR_PROJECT_ID]
+   * export INFRACLASS_PROJECT_ID=[YOUR_PROJECT_ID]
 
-	5. Append the value of your Project ID environment variable to the config file:
+5. Append the value of your Project ID environment variable to the config file:
 
-	   * echo INFRACLASS_PROJECT_ID=$INFRACLASS_PROJECT_ID >> ~/infraclass/config
+   * echo INFRACLASS_PROJECT_ID=$INFRACLASS_PROJECT_ID >> ~/infraclass/config
 
-	6. Use the source command to set the environment variables, and use the echo command to verify that the project variable was set
+6. Use the source command to set the environment variables, and use the echo command to verify that the project variable was set
 
-	   * source infraclass/config
-	   * echo $INFRACLASS_PROJECT_ID  
+   * source infraclass/config
+   * echo $INFRACLASS_PROJECT_ID  
 
-	7. Close and re-open Cloud Shell. Then issue the echo command again:
+7. Close and re-open Cloud Shell. Then issue the echo command again:
 
-	   * echo $INFRACLASS_PROJECT_ID
+   * echo $INFRACLASS_PROJECT_ID
 
-	     There will be no output because the environment variable no longer exists.
+     There will be no output because the environment variable no longer exists.
 
 #### Modify the bash profile and create persistence
 
-	1. Edit the shell profile with the following command:
+1. Edit the shell profile with the following command:
 
-	    * nano .profile
+    * nano .profile
 
-	2. Add the following line to the end of the file:
+2. Add the following line to the end of the file:
 
-	   * source infraclass/config
+   * source infraclass/config
 
-	3. Press Ctrl+O, ENTER to save the file, and then press Ctrl+X to exit nano.
+3. Press Ctrl+O, ENTER to save the file, and then press Ctrl+X to exit nano.
 
-	4. Close and then re-open Cloud Shell to cycle the VM.
+4. Close and then re-open Cloud Shell to cycle the VM.
 
-	5. Use the echo command to verify that the variable is still set:
+5. Use the echo command to verify that the variable is still set:
 
-	   * echo $INFRACLASS_PROJECT_ID
+   * echo $INFRACLASS_PROJECT_ID
 
 	
