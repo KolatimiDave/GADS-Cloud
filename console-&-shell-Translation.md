@@ -27,7 +27,7 @@ Sign in to the Google Cloud Platform
 
       followed by the bucket name you'll be using. your completed command will look similar to this
 
-      * export MY_ZONE=spaceX-Restaurant
+      * export BUCKET_NAME=spaceX-Restaurant
 
 2. Use the gsutil command to create another bucket. Replace <BUCKET_NAME> with a globally unique name (you can append a 2 to the globally unique bucket name you used previously)
 
